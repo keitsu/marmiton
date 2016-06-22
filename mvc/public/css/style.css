@@ -1,0 +1,39 @@
+/*  Carousel  */
+.logo
+{
+    display: block;
+    width: 2.5em;
+    padding-top: 0px;
+    margin-top: -0.7em;
+}
+.img_car
+{
+    width: 100em;
+    height: 100em;
+}
+
+.carousel-inner .item img
+{
+    margin: auto;
+}
+.container-fluid
+{
+    background-color: orange;
+}
+
+.carousel-control
+{
+    opacity: 0;
+}
+
+p
+{
+    font-size: 1.5em;
+}.
+
+
+/*navbar*/
+.navbar-form
+ {
+    margin-left: 1000px;
+ }

@@ -1,3 +1,4 @@
+
 <?php
 /**
  * Created by PhpStorm.
@@ -6,5 +7,4 @@
  * Time: 10:31
  */
 require_once '../app/init.php';
-
 $app = new App;
