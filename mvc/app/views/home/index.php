@@ -26,23 +26,17 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img class="logo" src="../../../../asset/img/marmiton-logo.png"></a>
+            <a class="navbar-brand" href="index.php"><img class="logo" src="../../../../asset/img/marmiton-logo.png"></a>
         </div>
-
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li><a href="#">Actualité</a></li>
-                <li><a href="Recette.php">Recettes</a></li>
+                <li><a href="actualite.php">Actualité</a></li>
+                <li><a href="Catégorie.php">Catégories</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Recettes <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">One more separated link</a></li>
+                        <li><a href="last_reciep.php">Les dernieres recettes</a></li>
+                        <li><a href="more_famous.php">Les plus populaires</a></li>
                     </ul>
                 </li>
             </ul>
@@ -65,7 +59,6 @@
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
         </ol>
 
         <!-- Wrapper for slides -->
@@ -111,15 +104,15 @@
 <section>
     <div class="row">
         <div class="col-4">
-            <img src="homme.jpg" class="imgcharacters" />
+            <img src="../../../../asset/img/nos-50-recettes-de-plats-uniques.jpg" class="imgcharacters" />
             <p><strong>Bernard Bnp : </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget libero neque. Duis nibh dui, pulvinar a euismod ut, vestibulum ut ipsum. Nunc viverra vehicula tortor, sed aliquet est egestas interdum. Donec tincidunt eu nibh eu congue. Suspendisse sit amet est sit amet risus scelerisque faucibus. Morbi ex leo, luctus et mi id, tempor sollicitudin diam. Phasellus ac congue mauris. Integer nec leo sed odio vestibulum iaculis at sed elit.dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         <div class="col-4">
-            <img src="femme.jpg" class="imgcharacters" />
+            <img src="../../../../asset/img/open-uri20140320-5908-32t09.jpeg" class="imgcharacters" />
             <p><strong>Morgan Sect : </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et lacus eu massa sodales ultrices. Etiam sagittis elementum tellus, id consectetur lacus vestibulum quis. Duis ullamcorper sit amet est eu ornare. Sed in turpis fermentum, laoreet diam quis, blandit mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam viverra vulputate ex quis ultrices. Integer condimentum dapibus nulla at luctus. Morbi rutrum lacinia quam, et.</p>
         </div>
         <div class="col-4">
-            <img src="femme2.jpg" class="imgcharacters" />
+            <img src="../../../../asset/img/steak%20de%20viande%20-%20autres.jpg" class="imgcharacters" />
             <p><strong>Christine Mureaux : </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut turpis at quam malesuada varius. Duis purus felis, rhoncus at consectetur ac, rhoncus eu justo. Aliquam congue ut sapien et auctor. Nulla porttitor pellentesque erat in elementum. Maecenas varius justo a blandit venenatis. Mauris ac velit commodo, pellentesque dolor in, molestie ex. Sed pretium urna ut lectus ultricies ultrices. Sed condimentum, dolor ac pretium suscipit, justo risus porta sem, in.</p>
         </div>
     </div>
