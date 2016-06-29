@@ -1,0 +1,59 @@
+/*  Carousel  */
+.logo
+{
+    display: block;
+    width: 2.5em;
+    padding-top: 0px;
+    margin-top: -0.7em;
+}
+.img_car
+{
+    width: 100em;
+    height: 100em;
+}
+
+.carousel-inner .item img
+{
+    margin: auto;
+}
+.container-fluid
+{
+    background-color: orange;
+}
+
+.carousel-control
+{
+    opacity: 0;
+}
+
+p
+{
+    font-size: 1.5em;
+}.
+
+
+/*navbar*/
+.navbar-form
+ {
+    margin-left: 1000px;
+ }
+
+ /*Temoignage*/
+.col-4
+{
+    width: 33.33%;
+    padding: 2% 7%;
+    vertical-align: top;
+    float: left;
+    box-sizing: border-box;
+}
+
+.col-4 img
+{
+    display: block;
+    margin: auto;
+    height: 8em;
+    width: 8em;
+    border-radius: 50%;
+    position: center;
+}
